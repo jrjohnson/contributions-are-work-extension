@@ -13,5 +13,10 @@
       "css": ["make_contributions_red.css"],
       "js": ["jquery-2.2.4.min.js", "change-text.js"]
     }
-  ]
+  ],
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
 }
