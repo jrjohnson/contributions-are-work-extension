@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "Contributions Are Work",
+  "description": "Makes Github contirubtion graph look more like work by making it red",
+  "version": "1.0",
+  "permissions": [
+    "https://github.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*"],
+      "css": ["make_contributions_red.css"],
+      "js": ["jquery-2.2.4.min.js", "change-text.js"]
+    }
+  ]
+}

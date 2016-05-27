@@ -1,0 +1,34 @@
+$red: rgb(255, 0, 0);
+$green: #44a340;
+
+.contributions-calendar {
+  rect {
+    fill: $red;
+
+    &[data-count='0'] {
+      fill: $green;
+      opacity: 1;
+    }
+
+    @for $i from 1 through 20 {
+      &[data-count="#{$i}"] {
+        opacity: $i / 10;
+      }
+    }
+  }
+}
+
+.legend {
+  li {
+    background-color: $red;
+  }
+}
+
+
+// <ul class="legend">
+//             <li style="background-color: #eee"></li>
+//             <li style="background-color: #d6e685"></li>
+//             <li style="background-color: #8cc665"></li>
+//             <li style="background-color: #44a340"></li>
+//             <li style="background-color: #1e6823"></li>
+//           </ul>
