@@ -2,7 +2,7 @@
   "manifest_version": 2,
 
   "name": "Contributions Are Work",
-  "description": "Makes Github contirubtion graph look more like work by making it red",
+  "description": "Makes Github contribution graph look more like work by making it red.",
   "version": "1.0",
   "permissions": [
     "https://github.com/*"
