@@ -1,50 +1,47 @@
-.contributions-calendar rect {
-  fill: red; }
-  .contributions-calendar rect[data-count='0'] {
-    fill: #44a340;
+.calendar-graph rect {
+  fill: #e00; }
+  .calendar-graph rect[data-count='0'] {
+    fill: #090;
     opacity: 1; }
-  .contributions-calendar rect[data-count="1"] {
+  .calendar-graph rect[data-count="1"] {
     opacity: 0.1; }
-  .contributions-calendar rect[data-count="2"] {
+  .calendar-graph rect[data-count="2"] {
     opacity: 0.2; }
-  .contributions-calendar rect[data-count="3"] {
+  .calendar-graph rect[data-count="3"] {
     opacity: 0.3; }
-  .contributions-calendar rect[data-count="4"] {
+  .calendar-graph rect[data-count="4"] {
     opacity: 0.4; }
-  .contributions-calendar rect[data-count="5"] {
+  .calendar-graph rect[data-count="5"] {
     opacity: 0.5; }
-  .contributions-calendar rect[data-count="6"] {
+  .calendar-graph rect[data-count="6"] {
     opacity: 0.6; }
-  .contributions-calendar rect[data-count="7"] {
+  .calendar-graph rect[data-count="7"] {
     opacity: 0.7; }
-  .contributions-calendar rect[data-count="8"] {
+  .calendar-graph rect[data-count="8"] {
     opacity: 0.8; }
-  .contributions-calendar rect[data-count="9"] {
+  .calendar-graph rect[data-count="9"] {
     opacity: 0.9; }
-  .contributions-calendar rect[data-count="10"] {
+  .calendar-graph rect[data-count="10"] {
     opacity: 1; }
-  .contributions-calendar rect[data-count="11"] {
+  .calendar-graph rect[data-count="11"] {
     opacity: 1.1; }
-  .contributions-calendar rect[data-count="12"] {
+  .calendar-graph rect[data-count="12"] {
     opacity: 1.2; }
-  .contributions-calendar rect[data-count="13"] {
+  .calendar-graph rect[data-count="13"] {
     opacity: 1.3; }
-  .contributions-calendar rect[data-count="14"] {
+  .calendar-graph rect[data-count="14"] {
     opacity: 1.4; }
-  .contributions-calendar rect[data-count="15"] {
+  .calendar-graph rect[data-count="15"] {
     opacity: 1.5; }
-  .contributions-calendar rect[data-count="16"] {
+  .calendar-graph rect[data-count="16"] {
     opacity: 1.6; }
-  .contributions-calendar rect[data-count="17"] {
+  .calendar-graph rect[data-count="17"] {
     opacity: 1.7; }
-  .contributions-calendar rect[data-count="18"] {
+  .calendar-graph rect[data-count="18"] {
     opacity: 1.8; }
-  .contributions-calendar rect[data-count="19"] {
+  .calendar-graph rect[data-count="19"] {
     opacity: 1.9; }
-  .contributions-calendar rect[data-count="20"] {
+  .calendar-graph rect[data-count="20"] {
     opacity: 2; }
-
-.legend li {
-  background-color: red; }
 
 /*# sourceMappingURL=make_contributions_red.css.map */
